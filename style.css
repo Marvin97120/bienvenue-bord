@@ -1,0 +1,148 @@
+*{
+   margin: 0;
+}
+
+:root{
+    --1ere-couleur:#a306b6;
+    --2eme-couleur:#d9d9d9;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("../Bienvenue à bord/typo/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Sourcesans3";
+    src: url("../Bienvenue à bord/typo/SourceSans3-VariableFont_wght.ttf");
+}
+
+h1 h2 h3{
+    font-family: "montserrat";
+}
+
+p li{
+    font-family: "Sourcesans3";
+}
+
+/* header */
+
+header{
+    background-color: var(--1ere-couleur);
+    color: var(--2eme-couleur);   
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1.5em;
+    padding: 1.5em;
+
+
+
+}
+
+#logo{
+    width: 10%;
+}
+
+ul{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.2em;
+  width: 100%;
+  list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#avatar{
+    width: 20%;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+h1{
+    padding: 0.5em;
+    font-size: 250%;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+/* main */
+
+
+h2{
+    padding: 1.5em;
+    text-align: center;
+    color: var(--1ere-couleur);
+    width: 100%;
+    font-size: 180%;
+}
+
+article{
+    background-color: var(--2eme-couleur);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1%;
+    padding: 1.5em;
+    margin: 2em;
+}
+
+article img{
+    max-height: 200px;
+}
+
+h3{
+    font-size: 250%;
+    margin: 0.5em;
+}
+
+button{
+    background-color: var(--1ere-couleur);
+    color: white;
+    border-radius: 1em;
+    font-size: 130%;
+    padding: 0.5em 1.5em;
+    font-family: "montserrat";
+    cursor: pointer;
+}
+
+p{
+    margin: 1em 2em;
+    font-family: "Sourcesans3";
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: var(--2eme-couleur);
+    text-align: center;
+    padding: 1.5em;
+    font-family: "Sourcesans3";
+}
+
+footer>p>a{
+    color: var(--1ere-couleur);
+}
