@@ -1,0 +1,71 @@
+
+nav{
+@media screen and (min-width: 992px) {
+    display: flex;
+    flex-direction: row;
+}
+}
+
+#logo{
+    @media screen and (min-width: 992px) {
+        width: 3%;
+}
+}
+
+ul{
+    @media screen and (min-width: 992px) {
+        display: flex;
+        justify-content: flex-end;
+        gap: 3em;
+        padding: 0 4em;
+}
+}
+
+header section{
+    @media screen and (min-width: 992px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 3em;
+}
+}
+
+h1{
+    @media screen and (min-width: 992px) {
+        padding: 0 0 0 6em;
+        font-size: 3.5em;
+}
+}
+
+#avatar{
+    @media screen and (min-width: 992px) {
+        width: 15%;
+}
+}
+
+article{
+    @media screen and (min-width: 992px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+}
+}
+
+div{
+    @media screen and (min-width: 992px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+}
+
+p{
+    @media screen and (min-width: 992px) {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+}
+}
+
